@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Tarea 2 </h2>
+
+<p>car.</p>
+
+<p id="demo"></p>
+
+<script>
+
+class Car {
+  constructor(abigail) {
+      this.carname = abigail;
+  }
+  present() {
+      return "I have a " + this.carname + ", this ";
+  }
+}
+
+mycar = new Car("Ford");
+
+class Car {
+  constructor(abigail) {
+      this.carname = abigail;
+  }
+  present() {
+      return "I have a " + this.carname + ", this ";
+  }
+}
+
+mycar = new Car("KIA");
+
+
+class Car {
+  constructor(abigail) {
+      this.carname = abigail;
+  }
+  present() {
+      return "I have a " + this.carname + ", this ";
+  }
+}
+
+mycar = new Car("HONDA");
+
+class Car {
+  constructor(abigail) {
+      this.carname = abigail;
+  }
+  present() {
+      return "I have a " + this.carname + ", this ";
+  }
+}
+
+mycar = new Car("NISSAN");
+
+class Car {
+  constructor(abigail) {
+      this.carname = abigail;
+  }
+  present() {
+      return "I have a " + this.carname + ", this ";
+  }
+}
+
+mycar = new Car("CHEVROLET");
+
+  
+  
+document.getElementById("demo").innerHTML = mycar.present();
+
+</script>
+
+</body>
+</html>
